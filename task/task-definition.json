@@ -35,7 +35,7 @@
             "systemControls": []
         }
     ],
-    "family": "actions_task",
+    "family": "test-web",
     "executionRoleArn": "arn:aws:iam::{{AWS_ACCOUNT_ID}}:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
