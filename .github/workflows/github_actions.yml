@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: ap-northeast-1
   ECR_REPOSITORY: test-ecr
-  ECS_SERVICE: test-web-cluster
+  ECS_SERVICE: test-web-service
   ECS_CLUSTER: test-web-cluster
   ECS_TASK_DEFINITION: task/task-definition.json
   CONTAINER_NAME: test-web-container
